@@ -1,0 +1,94 @@
+.edu-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.edu-header h2 {
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  color: #036666;
+}
+
+.edu-header h2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60%;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #023f3f;
+}
+
+.edu-content {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+  height: 300px;
+  width: 100%;
+}
+
+.edu-picture {
+  position: relative;
+  flex: 1;
+}
+
+.edu-picture-background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  width: 420px;
+  background: #78c6a3;
+  z-index: 1;
+}
+
+.edu-picture-background::before {
+  position: absolute;
+  content: "";
+  height: 280px;
+  width: 220px;
+  background: #e1f6e9;
+  z-index: -1;
+}
+
+.edu-picture-background::after {
+  position: absolute;
+  content: "";
+  height: 160px;
+  width: 420px;
+  background: #e1f6e9;
+  z-index: -1;
+}
+
+.edu-picture img {
+  height: 240px;
+  width: 380px;
+}
+
+.edu-text {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.edu-text-nameschool {
+  font-size: 24px;
+  font-weight: 400;
+  color: hsl(180, 94%, 15%);
+  text-shadow: 3px 3px 2px rgba(2, 74, 74, 0.2);
+  padding-bottom: 20px;
+}
+
+.edu-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(180, 94%, 10%);
+}
