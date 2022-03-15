@@ -1,0 +1,45 @@
+.name-container {
+  background: #c5eed4;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* backdrop-filter: blur(10px); */
+}
+
+.name-description {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #023f3f;
+}
+
+.name-picture {
+  flex: 1;
+  position: relative;
+}
+
+.name-text h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.name-me h1 {
+  font-size: 64px;
+  padding-bottom: 42px;
+}
+
+.name-picture-me {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 70%;
+}
+
+.imgBg {
+  background: #67b99a;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 10% 100%, 0 40%);
+  height: 100%;
+  width: 100%;
+}
