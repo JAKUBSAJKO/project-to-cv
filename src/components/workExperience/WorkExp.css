@@ -1,0 +1,71 @@
+.work-container {
+  position: relative;
+  background: #56ab91;
+  width: 100vw;
+  height: 100vh;
+  padding: 60px 0;
+}
+
+.work-container-bg {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.work-header h2 {
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  color: hsl(180, 94%, 15%);
+}
+
+.work-header h2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60%;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #023f3f;
+}
+
+.work-content {
+  display: flex;
+}
+
+.leftside {
+  flex: 1;
+  padding: 40px 10px 10px 10px;
+}
+
+.leftside h2 {
+  color: hsl(180, 94%, 5%);
+  text-shadow: 2px 2px 2px rgba(1, 25, 25, 0.2);
+  padding: 4px 0;
+}
+
+.leftside h3 {
+  color: hsl(180, 94%, 5%);
+  text-shadow: 2px 2px 2px rgba(1, 25, 25, 0.2);
+  padding-left: 16px;
+}
+
+.leftside h4 {
+  color: hsl(180, 94%, 5%);
+  text-shadow: 2px 2px 2px rgba(1, 25, 25, 0.2);
+  padding: 10px 0 0 16px;
+}
+
+.leftside ul {
+  padding: 2px 0 10px 37px;
+}
+
+.leftside p {
+  padding: 10px 16px;
+}
+
+.rightside {
+  flex: 1;
+}
