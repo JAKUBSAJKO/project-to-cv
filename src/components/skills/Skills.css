@@ -1,0 +1,93 @@
+.skills-container {
+  position: relative;
+  background: #99e2b4;
+  width: 100vw;
+  padding: 60px 0;
+}
+
+.skills-container-bg {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.skills-header h2 {
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  color: hsl(180, 94%, 15%);
+}
+
+.skills-header h2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60%;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #023f3f;
+}
+
+.skills-maps {
+  position: relative;
+  margin: 40px auto 10px auto;
+  height: 480px;
+  width: 960px;
+}
+
+.skills-maps-center {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.skills-icon:nth-child(2) {
+  top: 106px;
+  left: 346.5px;
+  animation: skills-rotate 5 linear infinite;
+}
+
+.skills-icon:nth-child(3) {
+  top: 51px;
+  left: 480px;
+}
+
+.skills-icon:nth-child(4) {
+  top: 106px;
+  left: 612.5px;
+}
+
+.skills-icon:nth-child(5) {
+  top: 241px;
+  left: 666.5px;
+}
+
+.skills-icon:nth-child(6) {
+  top: 363px;
+  left: 612.5px;
+}
+
+.skills-icon:nth-child(7) {
+  top: 429px;
+  left: 480px;
+}
+
+.skills-icon:nth-child(8) {
+  top: 363px;
+  left: 346.5px;
+}
+
+.skills-icon:nth-child(9) {
+  top: 241px;
+  left: 290.5px;
+}
