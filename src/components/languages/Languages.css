@@ -1,16 +1,10 @@
 .languages-container {
   background: hsl(142, 56%, 85%);
-  height: 100vh;
   position: relative;
-  padding: 60px 0;
+  padding: 60px 0 20px;
 }
 
-.languages-container-bg {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.languages-header h2 {
+.languages-header h1 {
   position: relative;
   padding-bottom: 10px;
   text-align: center;
@@ -19,7 +13,7 @@
   color: hsl(180, 94%, 15%);
 }
 
-.languages-header h2::after {
+.languages-header h1::after {
   position: absolute;
   content: "";
   height: 2px;
@@ -28,4 +22,44 @@
   left: 50%;
   transform: translateX(-50%);
   background: #023f3f;
+}
+
+.languages-content {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+  color: #023f3f;
+}
+
+.languages-left,
+.languages-right {
+  flex-basis: 360px;
+  background: #78c6a3;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.languages-left:hover,
+.languages-right:hover {
+  box-shadow: 0 0 30px 0px #023f3f;
+}
+
+.languages-left img,
+.languages-right img {
+  padding: 20px 0 0;
+}
+
+.languages-left h2,
+.languages-right h2 {
+  font-size: 28px;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(2, 64, 64, 0.2);
+}
+
+.languages-left h3,
+.languages-right h3 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4px 0 20px;
 }
