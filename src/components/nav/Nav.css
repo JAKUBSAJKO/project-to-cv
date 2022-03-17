@@ -1,0 +1,22 @@
+.nav {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-content ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 0 50px;
+}
+
+.nav-content li {
+  list-style: none;
+}
+
+.nav-content a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #023f3f;
+}
