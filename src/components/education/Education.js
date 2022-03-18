@@ -4,7 +4,7 @@ import PWSZ from "../../assets/pwsz-elblag.jpg";
 
 const Education = () => {
   return (
-    <div className="edu-container">
+    <div className="edu-container" id="education">
       <div className="edu-header">
         <h2>Wykształcenie</h2>
       </div>

@@ -13,7 +13,7 @@ import FIGMA from "../../assets/skills-figma.png";
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <div className="skills-container-bg">
         <div className="skills-header">
           <h2>Umiejętności</h2>

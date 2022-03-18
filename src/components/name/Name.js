@@ -4,7 +4,7 @@ import Me from "../../assets/me.png";
 
 const Name = () => {
   return (
-    <div className="name-container">
+    <div className="name-container" id="name">
       <div className="name-description">
         <div className="name-text">
           <h1>Cześć, nazywam się</h1>
