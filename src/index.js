@@ -4,11 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MailThanks from "./components/mail-thanks/MailThanks.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/thanks" element={<MailThanks />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")

@@ -1,0 +1,55 @@
+.mail-container {
+  position: relative;
+  background: #c3eed3;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail-cards {
+  background: #e1f6e9;
+  height: 280px;
+  width: 520px;
+  border-radius: 20px;
+}
+
+.mail-cards:hover {
+  box-shadow: 0 0 40px 20px #78c6a3;
+}
+
+.mail-icon {
+  text-align: center;
+}
+
+.mail-icon i {
+  color: #78c6a3;
+  font-size: 144px;
+  padding: 40px 0 20px;
+}
+
+.mail-cards h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+button {
+  padding: 14px 52px;
+  margin-top: 60px;
+  border: 1px solid #78c6a3;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.5;
+}
+
+button:hover {
+  background: #78c6a3;
+  color: white;
+  font-weight: 500;
+  transition: 0.5;
+}

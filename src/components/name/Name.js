@@ -1,11 +1,13 @@
 import React from "react";
 import "./Name.css";
 import Me from "../../assets/me.png";
+import { Link } from "react-router-dom";
 
 const Name = () => {
   return (
     <div className="name-container" id="name">
       <div className="name-description">
+        <Link to={"/thanks"}>test</Link>
         <div className="name-text">
           <h1>Cześć, nazywam się</h1>
         </div>
