@@ -31,7 +31,6 @@ const Contact = () => {
             <input
               name="_redirect"
               type="hidden"
-              id="name"
               value="https://jakub-sajko-cv.netlify.app/thanks"
             ></input>
             <input
