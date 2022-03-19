@@ -10,15 +10,15 @@ const Contact = () => {
       <div className="contact-content">
         <div className="contact-left">
           <div className="contact-left-mail">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
             <h1>jakubsajko.inf@gmail.com</h1>
           </div>
           <div className="contact-left-phone">
-            <i class="fas fa-mobile-alt"></i>
+            <i className="fas fa-mobile-alt"></i>
             <h1>515 982 498</h1>
           </div>
           <div className="contact-left-city">
-            <i class="fas fa-map-marker-alt"></i>
+            <i className="fas fa-map-marker-alt"></i>
             <h1>Gdańsk / Nowy Dwór Gdański</h1>
           </div>
         </div>

@@ -3,7 +3,7 @@
   background: #56ab91;
   width: 100vw;
   height: 100vh;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .work-container-bg {
@@ -67,5 +67,119 @@
 }
 
 .rightside {
+  position: relative;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.rightside hr {
+  background: rgb(255, 255, 255);
+  border: 1px solid #fff;
+  width: 220px;
+}
+
+.rightside .content {
+  position: relative;
+  height: 240px;
+  width: 420px;
+  background: white;
+}
+
+.rightside .content .arrow-left,
+.rightside .content .arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #023f3f;
+}
+
+.rightside .content .arrow-left {
+  left: -35px;
+}
+.rightside .content .arrow-right {
+  right: -35px;
+}
+
+.rightside .content .slider {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 360px;
+  background: rebeccapurple;
+  display: none;
+}
+
+.rightside .content .slider img {
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.rightside .content .slider img.image-on {
+  display: block;
+}
+
+.rightside .content .slider.slider-on {
+  display: inline;
+}
+
+.rightside .content .video {
+  position: absolute;
+  top: 50%;
+  left: 52.2%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 380px;
+  display: none;
+}
+
+.rightside .content .video.video-on {
+  display: block;
+}
+
+.rightside .dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.rightside .dots .dot {
+  height: 14px;
+  width: 14px;
+  background: white;
+  border-radius: 50%;
+  margin: 4px 10px;
+  box-shadow: 2px 2px 2px #023f3f;
+  cursor: pointer;
+}
+
+.rightside .dots .pick {
+  height: 20px;
+  width: 20px;
+  box-shadow: 2px 2px 2px #023f3f;
+}
+
+.rightside .content-icon {
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  text-shadow: 3px 3px 2px #023f3f;
+}
+
+.rightside .content-icon i {
+  padding: 10px 20px;
+}
+
+.rightside .content-icon i.active-icon {
+  border-bottom: 2px solid #fff;
 }
