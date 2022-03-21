@@ -9,6 +9,7 @@ import Languages from "./components/languages/Languages";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
+import { Link } from "react-scroll";
 
 function App() {
   return (
@@ -16,6 +17,18 @@ function App() {
       <Nav />
       <Name />
       <Education />
+      <div className="return-button">
+        <Link
+          activeClass="active"
+          to="name"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={1600}
+        >
+          <i class="fas fa-caret-square-up"></i>
+        </Link>
+      </div>
       <Workexp />
       <Skills />
       <Interests />

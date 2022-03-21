@@ -11,3 +11,20 @@ body {
   overflow-x: hidden;
   background: rgba(197, 238, 212, 0.5);
 }
+
+.return-button {
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: end;
+  top: 87.5vh;
+  padding-right: 2.5vw;
+  z-index: 1;
+}
+
+.return-button i {
+  font-size: 52px;
+  padding-left: 10px;
+  color: hsl(180, 94%, 15%);
+  cursor: pointer;
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+}

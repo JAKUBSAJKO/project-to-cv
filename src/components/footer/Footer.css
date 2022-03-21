@@ -35,14 +35,3 @@
   font-size: 14px;
   font-weight: 300;
 }
-
-.arrow {
-  position: absolute;
-  bottom: 20px;
-  right: 24px;
-}
-
-.arrow i {
-  font-size: 48px;
-  cursor: pointer;
-}

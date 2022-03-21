@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -25,18 +24,6 @@ const Footer = () => {
         </a>
       </div>
       <h3>Made by Jakub Sajko</h3>
-      <div className="arrow">
-        <Link
-          activeClass="active"
-          to="name"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={2000}
-        >
-          <i class="fas fa-caret-square-up"></i>
-        </Link>
-      </div>
     </div>
   );
 };
