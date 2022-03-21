@@ -5,7 +5,7 @@ const Interests = () => {
   return (
     <div className="interests-container" id="interests">
       <div className="interests-header">
-        <h2>Zainteresowania</h2>
+        <h1>Zainteresowania</h1>
       </div>
       <div className="interests-content">
         <div className="interests-music">

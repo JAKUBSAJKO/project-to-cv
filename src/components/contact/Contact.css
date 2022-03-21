@@ -5,7 +5,7 @@
   padding: 40px 0;
 }
 
-.contact-header h2 {
+.contact-header h1 {
   padding: 10px 0;
   position: relative;
   text-align: center;
@@ -14,7 +14,7 @@
   color: hsl(180, 94%, 15%);
 }
 
-.contact-header h2::after {
+.contact-header h1::after {
   position: absolute;
   content: "";
   height: 2px;

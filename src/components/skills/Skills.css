@@ -10,7 +10,7 @@
   width: 80%;
 }
 
-.skills-header h2 {
+.skills-header h1 {
   position: relative;
   padding: 10px 0;
   text-align: center;
@@ -19,7 +19,7 @@
   color: hsl(180, 94%, 15%);
 }
 
-.skills-header h2::after {
+.skills-header h1::after {
   position: absolute;
   content: "";
   height: 2px;

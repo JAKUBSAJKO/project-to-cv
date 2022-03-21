@@ -16,7 +16,7 @@ const Skills = () => {
     <div className="skills-container" id="skills">
       <div className="skills-container-bg">
         <div className="skills-header">
-          <h2>Umiejętności</h2>
+          <h1>Umiejętności</h1>
         </div>
         <div className="skills-maps">
           <div className="skills-maps-center">

@@ -11,7 +11,7 @@
   margin: 0 auto;
 }
 
-.work-header h2 {
+.work-header h1 {
   position: relative;
   padding: 10px 0;
   text-align: center;
@@ -20,7 +20,7 @@
   color: hsl(180, 94%, 15%);
 }
 
-.work-header h2::after {
+.work-header h1::after {
   position: absolute;
   content: "";
   height: 2px;

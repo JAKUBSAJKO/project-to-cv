@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div className="edu-container" id="education">
       <div className="edu-header">
-        <h2>Wykształcenie</h2>
+        <h1>Wykształcenie</h1>
       </div>
       <div className="edu-content">
         <div className="edu-picture">
