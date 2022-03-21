@@ -2,7 +2,7 @@
   position: relative;
   background: #99e2b4;
   width: 100vw;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .skills-container-bg {
@@ -12,7 +12,7 @@
 
 .skills-header h2 {
   position: relative;
-  padding-bottom: 10px;
+  padding: 10px 0;
   text-align: center;
   font-weight: 500;
   font-size: 36px;
