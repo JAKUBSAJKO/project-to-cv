@@ -28,7 +28,7 @@
   width: 80%;
   margin: 60px auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: #023f3f;
 }
 
