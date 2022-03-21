@@ -58,11 +58,19 @@ const Workexp = () => {
           <div className="rightside">
             <div className="content">
               <i
-                className="fas fa-angle-left arrow-left"
+                className={
+                  movieOrImages === "false"
+                    ? "fas fa-angle-left arrow-left noarrow"
+                    : "fas fa-angle-left arrow-left"
+                }
                 onClick={previousImg}
               ></i>
               <i
-                className="fas fa-angle-right arrow-right"
+                className={
+                  movieOrImages === "false"
+                    ? "fas fa-angle-right arrow-right noarrow"
+                    : "fas fa-angle-right arrow-right"
+                }
                 onClick={nextImg}
               ></i>
               <div
@@ -101,7 +109,9 @@ const Workexp = () => {
                 </video>
               </div>
             </div>
-            <div className="dots">
+            <div
+              className={movieOrImages === "false" ? "dots noactive" : "dots"}
+            >
               <div
                 className={currentNum === 1 ? "dot pick" : "dot"}
                 onClick={() => {
@@ -127,7 +137,7 @@ const Workexp = () => {
                 }}
               ></div>
             </div>
-            <hr />
+            <hr className={movieOrImages === "false" ? "movieHr" : ""} />
             <div className="content-icon">
               <i
                 className={

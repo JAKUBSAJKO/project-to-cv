@@ -13,7 +13,7 @@
 
 .work-header h2 {
   position: relative;
-  padding-bottom: 10px;
+  padding: 10px 0;
   text-align: center;
   font-weight: 500;
   font-size: 36px;
@@ -82,11 +82,16 @@
   width: 220px;
 }
 
+.rightside .movieHr {
+  margin: 30px 0 20px;
+}
+
 .rightside .content {
   position: relative;
   height: 240px;
   width: 420px;
   background: white;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
 }
 
 .rightside .content .arrow-left,
@@ -107,6 +112,10 @@
   right: -35px;
 }
 
+.noarrow {
+  display: none;
+}
+
 .rightside .content .slider {
   position: absolute;
   top: 50%;
@@ -116,6 +125,7 @@
   width: 360px;
   background: rebeccapurple;
   display: none;
+  box-shadow: 0 0 6px 2px black;
 }
 
 .rightside .content .slider img {
@@ -135,11 +145,13 @@
 .rightside .content .video {
   position: absolute;
   top: 50%;
-  left: 52.2%;
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 200px;
-  width: 380px;
+  width: 360px;
   display: none;
+
+  box-shadow: 0 0 6px 2px black;
 }
 
 .rightside .content .video.video-on {
@@ -151,6 +163,10 @@
   flex-direction: row;
   align-items: center;
   margin: 10px 0;
+}
+
+.rightside .noactive {
+  display: none;
 }
 
 .rightside .dots .dot {
