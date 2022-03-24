@@ -35,3 +35,22 @@
   font-size: 14px;
   font-weight: 300;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container h1 {
+    font-size: 24px;
+  }
+
+  .footer-container h2 {
+    font-size: 14px;
+  }
+
+  .footer-container i {
+    font-size: 16px;
+  }
+
+  .footer-container h3 {
+    font-size: 12px;
+  }
+}

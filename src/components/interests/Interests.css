@@ -122,3 +122,75 @@
     opacity: 1;
   }
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .interests-container {
+    height: auto;
+  }
+  .interests-header h1 {
+    padding: 10px 0;
+    font-size: 28px;
+  }
+
+  .interests-content {
+    flex-direction: column;
+  }
+
+  .interests-content .interests-music,
+  .interests-content .interests-sport,
+  .interests-content .interests-book {
+    margin: 20px 0;
+    height: auto;
+    padding: 40px;
+  }
+
+  .interests-content h2 {
+    font-size: 20px;
+  }
+
+  .interests-content h3 {
+    font-size: 16px;
+  }
+
+  .interests-content p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 4px 0;
+  }
+
+  .interests-content ul {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .interests-scroll-animation {
+    height: auto;
+    overflow: auto;
+  }
+
+  .interests-info {
+    height: auto;
+    transition: none;
+  }
+
+  .interests-music .interests-scroll-animation .interests-info:hover {
+    transform: none;
+  }
+
+  .interests-sport .interests-scroll-animation .interests-info:hover {
+    transform: none;
+  }
+
+  .down-arrow {
+    display: none;
+  }
+
+  br.responsive {
+    display: inline;
+  }
+
+  br.responsive {
+    display: none;
+  }
+}

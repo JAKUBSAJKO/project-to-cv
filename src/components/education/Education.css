@@ -93,3 +93,54 @@
   font-size: 16px;
   color: hsl(180, 94%, 10%);
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .edu-header h1 {
+    padding: 0;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+
+  .edu-content {
+    margin-top: 0;
+  }
+
+  .edu-picture-background {
+    height: 140px;
+    width: 210px;
+    margin: 0 auto;
+  }
+
+  .edu-picture-background::before {
+    height: 140px;
+    width: 110px;
+  }
+
+  .edu-picture-background::after {
+    height: 80px;
+    width: 210px;
+  }
+
+  .edu-picture img {
+    height: 120px;
+    width: 190px;
+  }
+
+  .edu-picture {
+    margin: auto 0;
+  }
+
+  .edu-text {
+    padding: 10px;
+  }
+
+  .edu-text-nameschool {
+    font-size: 14.2px;
+    padding-bottom: 20px;
+  }
+
+  .edu-text p {
+    font-size: 12px;
+  }
+}

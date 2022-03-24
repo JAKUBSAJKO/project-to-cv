@@ -92,3 +92,50 @@
   color: white;
   z-index: 2;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .name-container {
+    position: relative;
+    height: 80vh;
+  }
+
+  .name-text h1 {
+    font-size: 18px;
+  }
+
+  .name-me h1 {
+    font-size: 38px;
+  }
+
+  .name-description p {
+    font-size: 11px;
+  }
+
+  br.responsive {
+    display: inline;
+  }
+
+  br.responsive {
+    display: none;
+  }
+
+  .name-container .name-download-cv {
+    bottom: 50px;
+  }
+
+  .name-picture-me {
+    width: 70%;
+    bottom: 10%;
+  }
+
+  .name-container .name-download-cv h2 {
+    font-size: 12px;
+    padding: 0 12px;
+  }
+
+  .name-container .name-download-cv .name-download-cv-icon {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

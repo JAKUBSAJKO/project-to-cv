@@ -16,11 +16,11 @@ const Name = () => {
         </div>
         <p>
           Jestem absolwentem wyższej uczelni w zakresie grafiki komputerowej
-          <br />i multimediów, lecz swoją przyszłość zawodową wiążę z
-          frontendem. <br />
+          <br class="responsive" />i multimediów, lecz swoją przyszłość zawodową
+          wiążę z frontendem. <br class="responsive" />
           Każdą wolną chwilę poświęcam na udoskonalaniu swoich umiejętność{" "}
-          <br />w tworzeniu aplikacji internetowych. Chciałbym zdobywać
-          doświadczenie <br />
+          <br class="responsive" />w tworzeniu aplikacji internetowych.
+          Chciałbym zdobywać doświadczenie <br class="responsive" />
           oraz rozwijać się w tym kierunku.
         </p>
       </div>

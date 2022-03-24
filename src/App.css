@@ -28,3 +28,9 @@ body {
   cursor: pointer;
   text-shadow: 0 0 2px rgb(255, 255, 255);
 }
+
+@media (max-width: 768px) {
+  .return-button {
+    display: none;
+  }
+}

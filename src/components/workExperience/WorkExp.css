@@ -2,7 +2,6 @@
   position: relative;
   background: #56ab91;
   width: 100vw;
-  height: 100vh;
   padding: 20px 0;
 }
 
@@ -198,4 +197,69 @@
 
 .rightside .content-icon i.active-icon {
   border-bottom: 2px solid #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .work-header h1 {
+    padding: 0;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+
+  .work-header h1::after {
+    width: 80%;
+  }
+
+  .work-content {
+    flex-direction: column;
+  }
+
+  .work-content .leftside {
+    padding: 40px 10px;
+  }
+  .work-content .leftside h2 {
+    font-size: 18px;
+  }
+
+  .work-content .leftside h3 {
+    font-size: 16px;
+  }
+
+  .work-content .leftside h4 {
+    font-size: 14px;
+  }
+
+  .leftside ul {
+    padding: 8px 0 4px 37px;
+  }
+
+  .leftside ul li {
+    font-size: 14px;
+  }
+
+  .leftside p {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  br.responsive {
+    display: inline;
+  }
+
+  br.responsive {
+    display: none;
+  }
+
+  .rightside {
+    margin: 10px 0 40px;
+  }
+
+  .rightside .dots {
+    margin: 14px 0;
+  }
+
+  .rightside .content-icon {
+    margin-top: 14px;
+  }
 }

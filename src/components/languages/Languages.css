@@ -63,3 +63,37 @@
   font-weight: 500;
   padding: 4px 0 20px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .languages-header h1 {
+    font-size: 28px;
+  }
+
+  .languages-content {
+    flex-direction: column;
+    width: 40%;
+    margin: 20px auto 40px;
+  }
+
+  .languages-left,
+  .languages-right {
+    flex-basis: 200px;
+    margin: 20px 0;
+  }
+
+  .languages-left img,
+  .languages-right img {
+    padding: 20px 0 0;
+  }
+
+  .languages-left h2,
+  .languages-right h2 {
+    font-size: 24px;
+  }
+
+  .languages-left h3,
+  .languages-right h3 {
+    font-size: 16px;
+  }
+}

@@ -48,11 +48,13 @@ const Workexp = () => {
               <li>testowanie platform internetowych</li>
             </ul>
             <p>
-              Zwieńczeniem współpracy była praca dyplomowa. <br />
-              Wraz z kolegą stworzyliśmy grę edukacyjną dla dzieci <br />w
-              środowisku Unity. Gra polegała na odnalezieniu ukrytych eksponatów
-              w labiryncie oraz zdobyci wiedzy na ich temat. Eksponaty
-              znajdujące się w grze pochodzą <br />z regionu Warmi i Mazur.
+              Zwieńczeniem współpracy była praca dyplomowa.{" "}
+              <br class="responsive" />
+              Wraz z kolegą stworzyliśmy grę edukacyjną dla dzieci{" "}
+              <br class="responsive" />w środowisku Unity. Gra polegała na
+              odnalezieniu ukrytych eksponatów w labiryncie oraz zdobyci wiedzy
+              na ich temat. Eksponaty znajdujące się w grze pochodzą{" "}
+              <br class="responsive" />z regionu Warmi i Mazur.
             </p>
           </div>
           <div className="rightside">

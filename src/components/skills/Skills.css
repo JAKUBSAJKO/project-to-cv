@@ -1,6 +1,7 @@
 .skills-container {
   position: relative;
   background: #99e2b4;
+  height: 100vh;
   width: 100vw;
   padding: 20px 0;
 }
@@ -54,7 +55,6 @@
 .skills-icon:nth-child(2) {
   top: 106px;
   left: 346.5px;
-  animation: skills-rotate 5 linear infinite;
 }
 
 .skills-icon:nth-child(3) {
@@ -90,4 +90,58 @@
 .skills-icon:nth-child(9) {
   top: 241px;
   left: 290.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 0;
+  }
+  .skills-header h1 {
+    padding: 0;
+    padding-top: 20px;
+    font-size: 28px;
+  }
+
+  .skills-maps {
+    height: 360px;
+    width: 620px;
+    margin: 20px 0 0;
+  }
+
+  .skills-maps-center .me-icon {
+    margin-top: 120px;
+  }
+
+  .skills-icon:nth-child(2) {
+    left: 176.5px;
+  }
+
+  .skills-icon:nth-child(3) {
+    left: 310px;
+  }
+
+  .skills-icon:nth-child(4) {
+    left: 442.5px;
+  }
+
+  .skills-icon:nth-child(5) {
+    left: 496.5px;
+  }
+
+  .skills-icon:nth-child(6) {
+    left: 442.5px;
+  }
+
+  .skills-icon:nth-child(7) {
+    left: 310px;
+  }
+
+  .skills-icon:nth-child(8) {
+    left: 176.5px;
+  }
+
+  .skills-icon:nth-child(9) {
+    left: 120.5px;
+  }
 }
