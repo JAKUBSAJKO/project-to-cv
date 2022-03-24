@@ -128,3 +128,32 @@
     color: #fff;
   }
 }
+
+@media (max-width: 320px) {
+  #nav-resp-three {
+    left: 2px;
+  }
+
+  .nav-content {
+    width: 320px;
+    left: 320px;
+  }
+
+  .nav-content ul {
+    padding: 100px 40px 0;
+  }
+
+  .nav-content ul li a {
+    font-size: 22px;
+  }
+
+  .menu-icon {
+    top: 25px;
+    right: -5px;
+  }
+
+  .close-nav {
+    top: 20px;
+    right: 20px;
+  }
+}

@@ -12,7 +12,6 @@ const Nav = () => {
     const navContent = document.getElementById("nav-content");
 
     navContent.style.left = "480px";
-    console.log("dziala");
   };
   return (
     <div className="nav">

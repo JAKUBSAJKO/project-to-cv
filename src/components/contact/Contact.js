@@ -20,7 +20,10 @@ const Contact = () => {
           </div>
           <div className="contact-left-city">
             <i className="fas fa-map-marker-alt"></i>
-            <h1>Gdańsk / Nowy Dwór Gdański</h1>
+            <h1>
+              Gdańsk / <br className="small-resp" />
+              Nowy Dwór Gdański
+            </h1>
           </div>
         </div>
         <div className="contact-right">

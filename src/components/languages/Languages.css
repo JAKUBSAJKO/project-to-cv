@@ -118,3 +118,23 @@
     margin: 20px auto 40px;
   }
 }
+
+@media (max-width: 320px) {
+  .languages-container {
+    padding: 10px 0 0;
+  }
+
+  .languages-header h1 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .languages-header h1::after {
+    width: 90%;
+    bottom: 0;
+  }
+
+  .languages-content {
+    margin: -35px auto 20px;
+  }
+}

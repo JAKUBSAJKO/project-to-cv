@@ -20,8 +20,10 @@ const Education = () => {
             <br /> w Elblągu
           </h2>
           <p>
-            <b>Kierunek</b>: informatyka stosowana <br />
-            <b>Specjalizacja:</b> grafika komputerowa i multimedia <br />
+            <b>Kierunek</b>: <br className="small-resp" />
+            informatyka stosowana <br />
+            <b>Specjalizacja:</b> <br className="small-resp" />
+            grafika komputerowa <br className="small-resp" />i multimedia <br />
             <b>Poziom wykształcenia:</b> inżynier
           </p>
         </div>

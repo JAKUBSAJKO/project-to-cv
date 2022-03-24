@@ -94,6 +94,10 @@
   color: hsl(180, 94%, 10%);
 }
 
+.small-resp {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .edu-header h1 {
@@ -205,5 +209,40 @@
 
   .edu-text p {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .edu-header h1 {
+    font-size: 20px;
+  }
+
+  .edu-header h1::after {
+    width: 80%;
+    bottom: -2px;
+  }
+
+  .edu-picture-background {
+    height: 168px;
+    width: 252px;
+  }
+
+  .edu-picture-background::before {
+    height: 240px;
+    width: 130px;
+  }
+
+  .edu-picture-background::after {
+    height: 96px;
+    width: 252px;
+  }
+
+  .edu-picture img {
+    height: 144px;
+    width: 228px;
+  }
+
+  .small-resp {
+    display: block;
   }
 }

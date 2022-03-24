@@ -297,3 +297,37 @@
     width: 288px;
   }
 }
+
+@media (max-width: 320px) {
+  .work-header h1 {
+    font-size: 20px;
+  }
+
+  .work-header h1::after {
+    width: 90%;
+    bottom: -8px;
+  }
+
+  .rightside .content {
+    height: 153.6px;
+    width: 268.8px;
+  }
+
+  .rightside .content .slider {
+    height: 128px;
+    width: 230.4px;
+  }
+
+  .rightside .content .arrow-left,
+  .rightside .content .arrow-right {
+    display: none;
+  }
+
+  video {
+    width: 230.4px;
+  }
+  .rightside .content .video {
+    height: 128px;
+    width: 230.4px;
+  }
+}

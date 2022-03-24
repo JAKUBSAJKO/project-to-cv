@@ -161,4 +161,23 @@
   .name-container .name-download-cv .name-download-cv-icon {
     z-index: 0;
   }
-} ;
+}
+
+@media (max-width: 320px) {
+  .name-container {
+    padding-bottom: 30px;
+  }
+
+  .name-text h1 {
+    font-size: 14px;
+  }
+
+  .name-me h1 {
+    font-size: 32px;
+    padding: 0 0 10px;
+  }
+
+  .name-container .name-download-cv {
+    bottom: 26px;
+  }
+}

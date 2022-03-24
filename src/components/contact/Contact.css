@@ -189,3 +189,44 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 320px) {
+  .contact-container {
+    padding: 0;
+  }
+
+  .contact-header h1 {
+    font-size: 20px;
+  }
+
+  .contact-header h1::after {
+    width: 90%;
+    bottom: 6px;
+  }
+
+  .contact-left {
+    padding: 30px 0;
+  }
+
+  .contact-left-mail,
+  .contact-left-phone,
+  .contact-left-city {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contact-left-mail h1,
+  .contact-left-phone h1,
+  .contact-left-city h1 {
+    font-size: 20px;
+    padding: 4px 0 14px;
+  }
+
+  .contact-right {
+    padding: 10px 0 40px;
+  }
+
+  .small-resp {
+    display: block;
+  }
+}

@@ -213,3 +213,72 @@
     left: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .skills-container {
+    height: 410px;
+  }
+
+  .skills-header h1 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .skills-header h1::after {
+    width: 90%;
+    bottom: -4px;
+  }
+
+  .skills-maps {
+    height: 230px;
+    width: 260px;
+  }
+
+  .skills-maps-center .me-icon {
+    margin-top: 60px;
+  }
+
+  .skills-maps .skills-maps-center img {
+    transform: scale(0.7);
+  }
+
+  .skills-icon:nth-child(2) {
+    top: 0;
+    left: -20px;
+  }
+
+  .skills-icon:nth-child(3) {
+    top: 0;
+    left: 97px;
+  }
+
+  .skills-icon:nth-child(4) {
+    top: 0;
+    left: 210px;
+  }
+
+  .skills-icon:nth-child(5) {
+    top: 110px;
+    left: 210px;
+  }
+
+  .skills-icon:nth-child(6) {
+    top: 226px;
+    left: 210px;
+  }
+
+  .skills-icon:nth-child(7) {
+    top: 226px;
+    left: 97px;
+  }
+
+  .skills-icon:nth-child(8) {
+    top: 226px;
+    left: -20px;
+  }
+
+  .skills-icon:nth-child(9) {
+    top: 110px;
+    left: -20px;
+  }
+}
