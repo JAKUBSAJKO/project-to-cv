@@ -139,3 +139,9 @@
     padding: 8px;
   }
 }
+
+@media (max-width: 480px) {
+  .name-container {
+    width: 100%;
+  }
+} ;
