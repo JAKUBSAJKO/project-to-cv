@@ -156,3 +156,36 @@
     padding: 0;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 80%;
+  }
+  .contact-header h1 {
+    font-size: 24px;
+  }
+
+  .contact-header h1::after {
+    width: 100%;
+  }
+
+  .contact-left-mail,
+  .contact-left-phone,
+  .contact-left-city {
+    padding-left: 20px;
+  }
+
+  .contact-left-mail h1,
+  .contact-left-phone h1,
+  .contact-left-city h1 {
+    font-size: 18px;
+  }
+
+  .contact-right {
+    padding: 0;
+  }
+
+  .contact-right form a {
+    margin: 0 auto;
+  }
+}

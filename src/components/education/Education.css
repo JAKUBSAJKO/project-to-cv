@@ -109,7 +109,6 @@
   .edu-picture-background {
     height: 140px;
     width: 210px;
-    margin: 0 auto;
   }
 
   .edu-picture-background::before {
@@ -142,5 +141,69 @@
 
   .edu-text p {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .edu-container {
+    height: 540px;
+    padding: 0;
+  }
+
+  .edu-content {
+    position: relative;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  .edu-header h1 {
+    font-size: 24px;
+  }
+
+  .edu-header h1::after {
+    width: 80%;
+    bottom: -8px;
+  }
+
+  .edu-content .edu-picture {
+    padding: 160px 0 20px;
+  }
+
+  .edu-picture-background {
+    height: 210px;
+    width: 315px;
+    margin: 0 auto;
+    z-index: -1;
+  }
+
+  .edu-picture-background::before {
+    height: 210px;
+    width: 123, 75px;
+    z-index: -1;
+  }
+
+  .edu-picture-background::after {
+    height: 120px;
+    width: 315px;
+    z-index: -1;
+  }
+
+  .edu-picture img {
+    height: 180px;
+    width: 285px;
+    z-index: 0;
+  }
+
+  .edu-text {
+    padding: 20px;
+  }
+
+  .edu-text-nameschool {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .edu-text p {
+    font-size: 13px;
   }
 }

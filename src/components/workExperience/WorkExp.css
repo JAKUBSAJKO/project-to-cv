@@ -263,3 +263,37 @@
     margin-top: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .work-header h1 {
+    font-size: 24px;
+  }
+
+  .work-header h1::after {
+    width: 100%;
+    bottom: -8px;
+  }
+
+  .work-content .leftside {
+    flex: 1;
+    padding: 30px 10px;
+  }
+
+  .rightside .content {
+    height: 192px;
+    width: 336px;
+  }
+
+  .rightside .content .slider {
+    height: 160px;
+    width: 288px;
+  }
+
+  video {
+    width: 288px;
+  }
+  .rightside .content .video {
+    height: 160px;
+    width: 288px;
+  }
+}

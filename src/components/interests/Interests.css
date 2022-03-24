@@ -194,3 +194,18 @@
     display: none;
   }
 }
+
+@media (max-width: 480px) {
+  .interests-header h1 {
+    font-size: 24px;
+  }
+
+  .interests-header h1::after {
+    width: 80%;
+    bottom: -8px;
+  }
+
+  .interests-content .top {
+    margin-top: 20px;
+  }
+}
