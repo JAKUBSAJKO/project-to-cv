@@ -16,7 +16,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 36px;
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
 }
 
 .work-header h1::after {
@@ -27,7 +27,7 @@
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  background: #023f3f;
+  background: var(--green-dark);
 }
 
 .work-content {
@@ -76,7 +76,7 @@
 }
 
 .rightside hr {
-  background: rgb(255, 255, 255);
+  background: #fff;
   border: 1px solid #fff;
   width: 220px;
 }
@@ -89,7 +89,7 @@
   position: relative;
   height: 240px;
   width: 420px;
-  background: white;
+  background: #fff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
 }
 
@@ -98,10 +98,10 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: white;
+  color: #fff;
   font-size: 32px;
   cursor: pointer;
-  text-shadow: 2px 2px 2px #023f3f;
+  text-shadow: 2px 2px 2px var(--green-dark);
 }
 
 .rightside .content .arrow-left {
@@ -122,7 +122,6 @@
   transform: translate(-50%, -50%);
   height: 200px;
   width: 360px;
-  background: rebeccapurple;
   display: none;
   box-shadow: 0 0 6px 2px black;
 }
@@ -171,24 +170,24 @@
 .rightside .dots .dot {
   height: 14px;
   width: 14px;
-  background: white;
+  background: #fff;
   border-radius: 50%;
   margin: 4px 10px;
-  box-shadow: 2px 2px 2px #023f3f;
+  box-shadow: 2px 2px 2px var(--green-dark);
   cursor: pointer;
 }
 
 .rightside .dots .pick {
   height: 20px;
   width: 20px;
-  box-shadow: 2px 2px 2px #023f3f;
+  box-shadow: 2px 2px 2px var(--green-dark);
 }
 
 .rightside .content-icon {
   font-size: 36px;
-  color: white;
+  color: #fff;
   cursor: pointer;
-  text-shadow: 3px 3px 2px #023f3f;
+  text-shadow: 3px 3px 2px var(--green-dark);
 }
 
 .rightside .content-icon i {

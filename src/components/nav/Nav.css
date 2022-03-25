@@ -20,7 +20,7 @@
   content: "";
   width: 0%;
   height: 2px;
-  background: #023f3f;
+  background: var(--green-dark);
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -34,7 +34,7 @@
   position: relative;
   text-decoration: none;
   font-size: 16px;
-  color: #023f3f;
+  color: var(--green-dark);
 }
 
 .menu-icon {
@@ -71,7 +71,7 @@
 @media (max-width: 480px) {
   .nav-content {
     position: fixed;
-    background: #023f3f;
+    background: var(--green-dark);
     height: 100vh;
     width: 480px;
     top: 0;

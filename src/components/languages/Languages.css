@@ -1,5 +1,5 @@
 .languages-container {
-  background: hsl(142, 56%, 85%);
+  background: #c3eed3;
   position: relative;
   padding: 20px 0 1px;
 }
@@ -10,7 +10,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 36px;
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
 }
 
 .languages-header h1::after {
@@ -21,7 +21,7 @@
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  background: #023f3f;
+  background: var(--green-dark);
 }
 
 .languages-content {
@@ -29,7 +29,6 @@
   margin: 60px auto;
   display: flex;
   justify-content: space-around;
-  color: #023f3f;
 }
 
 .languages-left,
@@ -42,7 +41,7 @@
 
 .languages-left:hover,
 .languages-right:hover {
-  box-shadow: 0 0 30px 0px #023f3f;
+  box-shadow: 0 0 30px 0px var(--green-dark);
 }
 
 .languages-left img,

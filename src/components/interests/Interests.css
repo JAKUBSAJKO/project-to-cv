@@ -12,7 +12,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 36px;
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
 }
 
 .interests-header h1::after {
@@ -23,7 +23,7 @@
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  background: #023f3f;
+  background: var(--green-dark);
 }
 
 .interests-content {

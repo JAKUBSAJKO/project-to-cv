@@ -11,7 +11,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 36px;
-  color: #036666;
+  color: var(--section-title);
 }
 
 .edu-header h1::after {
@@ -22,7 +22,7 @@
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  background: #023f3f;
+  background: var(--green-dark);
 }
 
 .edu-content {

@@ -11,7 +11,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 36px;
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
 }
 
 .contact-header h1::after {
@@ -22,7 +22,7 @@
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  background: #023f3f;
+  background: var(--green-dark);
 }
 
 .contact-content {
@@ -45,20 +45,20 @@
 
 .contact-left-mail i {
   font-size: 32px;
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
 }
 
 .contact-left-phone i,
 .contact-left-city i {
   font-size: 32px;
   padding: 5px;
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
 }
 
 .contact-left-mail h1,
 .contact-left-phone h1,
 .contact-left-city h1 {
-  color: hsl(180, 94%, 15%);
+  color: var(--section-title);
   font-size: 20px;
   font-weight: 300;
   padding: 30px;
@@ -109,7 +109,7 @@
 }
 
 .contact-right form button:hover {
-  background: hsl(180, 94%, 15%);
+  background: var(--section-title);
   color: white;
   transition: 1s;
 }

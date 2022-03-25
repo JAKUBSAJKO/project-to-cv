@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
+:root {
+  --green-dark: #023f3f;
+  --green-mid: #c5eed4;
+  --section-title: #024a4a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +15,7 @@
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  background: rgba(197, 238, 212, 0.5);
+  background: #c5eed480;
 }
 
 .return-button {
