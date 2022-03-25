@@ -3,18 +3,44 @@ import "./Name.css";
 import Me from "../../assets/me.png";
 import { Link } from "react-router-dom";
 import CV from "../../assets/CV_Jakub_Sajko.pdf";
+import { motion } from "framer-motion";
 
 const Name = () => {
   return (
     <div className="name-container" id="name">
       <div className="name-description">
         <div className="name-text">
-          <h1>Cześć, nazywam się</h1>
+          <motion.h1
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{
+              type: "spring",
+              mass: 1,
+              damping: 8,
+            }}
+          >
+            Cześć, nazywam się
+          </motion.h1>
         </div>
         <div className="name-me">
-          <h1>Jakub Sajko</h1>
+          <motion.h1
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{
+              delay: 1.5,
+              type: "spring",
+              mass: 1,
+              damping: 8,
+            }}
+          >
+            Jakub Sajko
+          </motion.h1>
         </div>
-        <p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+        >
           Jestem absolwentem wyższej uczelni w zakresie grafiki komputerowej
           <br class="responsive" />i multimediów, lecz swoją przyszłość zawodową
           wiążę z frontendem. <br class="responsive" />
@@ -22,13 +48,21 @@ const Name = () => {
           <br class="responsive" />w tworzeniu aplikacji internetowych.
           Chciałbym zdobywać doświadczenie <br class="responsive" />
           oraz rozwijać się w tym kierunku.
-        </p>
+        </motion.p>
       </div>
       <div className="name-picture">
         <div className="imgBg"></div>
         <img src={Me} alt="" className="name-picture-me" />
       </div>
-      <Link to={CV} target="_blank" className="name-download-cv" download>
+
+      <Link
+        initial={{ x: "-100vw" }}
+        animate={{ x: 0 }}
+        to={CV}
+        target="_blank"
+        className="name-download-cv"
+        download
+      >
         <h2>Pobierz CV</h2>
         <span className="name-download-cv-icon">
           <i class="fas fa-download"></i>

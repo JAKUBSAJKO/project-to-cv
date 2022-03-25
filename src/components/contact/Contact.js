@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -66,11 +65,9 @@ const Contact = () => {
               rows="3"
               placeholder="Wiadomość"
             ></textarea>
-            <Link to={"/thanks"}>
-              <button type="submit" className="contact-btn" value="Submit">
-                Wyślij
-              </button>
-            </Link>
+            <button type="submit" className="contact-btn" value="Submit">
+              Wyślij
+            </button>
           </form>
         </div>
       </div>

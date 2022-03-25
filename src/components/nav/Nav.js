@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   const showMenu = () => {
@@ -19,7 +20,7 @@ const Nav = () => {
         <span className="close-nav">
           <i class="fas fa-times" onClick={hideMenu}></i>
         </span>
-        <ul>
+        <motion.ul initial={{ y: 700 }} animate={{ y: 0 }}>
           <li>
             <Link
               activeClass="active"
@@ -90,7 +91,7 @@ const Nav = () => {
               </a>
             </Link>
           </li>
-        </ul>
+        </motion.ul>
       </div>
       <span className="menu-icon">
         <i className="fas fa-bars" onClick={showMenu}></i>

@@ -10,6 +10,17 @@ import PY from "../../assets/skills-py.png";
 import GIT from "../../assets/skills-git.png";
 import BLEDNER from "../../assets/skills-blender.png";
 import FIGMA from "../../assets/skills-figma.png";
+import { motion } from "framer-motion";
+
+// circle animation
+const cirlce = {
+  hover: {
+    scale: 1.1,
+    transition: {
+      yoyo: Infinity,
+    },
+  },
+};
 
 const Skills = () => {
   return (
@@ -21,14 +32,62 @@ const Skills = () => {
         <div className="skills-maps">
           <div className="skills-maps-center">
             <img src={Me} alt="" className="me-icon" />
-            <img className="skills-icon" src={HTML} alt="" />
-            <img className="skills-icon" src={CSS} alt="" />
-            <img className="skills-icon" src={JS} alt="" />
-            <img className="skills-icon" src={REACT} alt="" />
-            <img className="skills-icon" src={PY} alt="" />
-            <img className="skills-icon" src={GIT} alt="" />
-            <img className="skills-icon" src={BLEDNER} alt="" />
-            <img className="skills-icon" src={FIGMA} alt="" />
+            <motion.img
+              className="skills-icon"
+              src={HTML}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={CSS}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={JS}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={REACT}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={PY}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={GIT}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={BLEDNER}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
+            <motion.img
+              className="skills-icon"
+              src={FIGMA}
+              alt=""
+              variants={cirlce}
+              whileHover="hover"
+            />
           </div>
         </div>
       </div>
