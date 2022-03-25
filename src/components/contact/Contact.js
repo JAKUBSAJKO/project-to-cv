@@ -32,11 +32,6 @@ const Contact = () => {
             method="POST"
           >
             <input
-              name="_redirect"
-              type="hidden"
-              value="https://jakub-sajko-cv.netlify.app/thanks"
-            ></input>
-            <input
               name="_formsubmit_id"
               type="text"
               className="honeypot"
