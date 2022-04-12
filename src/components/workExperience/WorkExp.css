@@ -297,6 +297,13 @@
   }
 }
 
+@media (max-width: 650px) {
+  .rightside .content .arrow-left,
+  .rightside .content .arrow-right {
+    display: none;
+  }
+}
+
 @media (max-width: 320px) {
   .work-header h1 {
     font-size: 20px;
