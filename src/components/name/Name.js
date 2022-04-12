@@ -1,6 +1,6 @@
 import React from "react";
 import "./Name.css";
-import Me from "../../assets/me.png";
+import ME from "../../assets/foto_me.png";
 import { Link } from "react-router-dom";
 import CV from "../../assets/CV_Jakub_Sajko.pdf";
 import { motion } from "framer-motion";
@@ -52,7 +52,7 @@ const Name = () => {
       </div>
       <div className="name-picture">
         <div className="imgBg"></div>
-        <img src={Me} alt="" className="name-picture-me" />
+        <img src={ME} alt="" className="name-picture-me" />
       </div>
 
       <Link
