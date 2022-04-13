@@ -1,9 +1,8 @@
 .interests-container {
   position: relative;
-  width: 80%;
-  height: 100vh;
+  width: 80vw;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0 80px;
 }
 
 .interests-header h1 {

@@ -21,9 +21,10 @@ body {
 .return-button {
   position: -webkit-sticky;
   position: sticky;
-  text-align: end;
+  width: 10%;
   top: 87.5vh;
-  padding-right: 2.5vw;
+  right: 20vw;
+  margin: 0 0 0 90vw;
   z-index: 1;
 }
 
